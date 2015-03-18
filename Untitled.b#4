@@ -832,10 +832,9 @@ design rules under a new name.</description>
 <element name="R3" library="SparkFun-Resistors" package="0805" value="" x="10.16" y="5.842" rot="R180"/>
 <element name="R4" library="SparkFun-Resistors" package="0805" value="" x="30.48" y="11.176"/>
 <element name="JP1" library="SparkFun-Connectors" package="JST-4-PTH-VERT" value="" x="2.54" y="18.288" rot="R270"/>
-<element name="U$1" library="SparkFun-Sensors" package="QFN-20-0.4MM-V2" value="MPR121V2" x="27.686" y="16.764"/>
+<element name="U$1" library="SparkFun-Sensors" package="QFN-20-0.4MM-V2" value="MPR121V2" x="29.21" y="19.304"/>
 <element name="IC4" library="74xx-little-us" package="SOT23-5" value="74AHC1G125DBV" x="23.876" y="20.32" rot="R90"/>
 <element name="IC5" library="74xx-little-us" package="SOT23-5" value="74AHC1G125DBV" x="18.034" y="20.32" rot="R90"/>
-<element name="JP2" library="SparkFun-Connectors" package="JST-4-PTH-VERT" value="" x="31.496" y="18.542" rot="R270"/>
 </elements>
 <signals>
 <signal name="PWM0">
@@ -1018,65 +1017,6 @@ design rules under a new name.</description>
 <contactref element="U1" pad="3"/>
 <contactref element="IC4" pad="3"/>
 <contactref element="IC5" pad="3"/>
-<contactref element="IC5" pad="1"/>
-<contactref element="IC4" pad="1"/>
-<contactref element="U$1" pad="6"/>
-<wire x1="25.166" y1="19.37" x2="26.89108125" y2="15.391940625" width="0" layer="19" extent="1-1"/>
-<wire x1="25.166" y1="21.27" x2="25.166" y2="19.37" width="0" layer="19" extent="1-1"/>
-<wire x1="23.806" y1="14.9606" x2="25.166" y2="19.37" width="0" layer="19" extent="1-1"/>
-<wire x1="22.206" y1="14.9606" x2="23.806" y2="14.9606" width="0" layer="19" extent="1-1"/>
-<wire x1="19.324" y1="19.37" x2="22.206" y2="14.9606" width="0" layer="19" extent="1-1"/>
-<wire x1="19.324" y1="21.27" x2="19.324" y2="19.37" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="18.542" x2="19.324" y2="19.37" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="18.542" x2="11.43" y2="18.542" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="10.922" x2="11.43" y2="18.542" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="10.922" x2="11.43" y2="10.922" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="3.302" x2="11.43" y2="10.922" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="3.302" x2="11.43" y2="3.302" width="0" layer="19" extent="1-1"/>
-<wire x1="23.006" y1="6.3754" x2="23.806" y2="14.9606" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SDA">
-<contactref element="U1" pad="27"/>
-<contactref element="IC4" pad="2"/>
-<wire x1="26.8986" y1="9.468" x2="25.166" y2="20.32" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SCL">
-<contactref element="U1" pad="28"/>
-<contactref element="IC5" pad="2"/>
-<wire x1="26.8986" y1="10.268" x2="19.324" y2="20.32" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SDAO">
-<contactref element="IC4" pad="4"/>
-<contactref element="U$1" pad="3"/>
-<wire x1="22.576" y1="21.27" x2="26.319021875" y2="16.764" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SCLO">
-<contactref element="IC5" pad="4"/>
-<contactref element="U$1" pad="2"/>
-<wire x1="16.734" y1="21.27" x2="26.319021875" y2="17.164" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="3V">
-<contactref element="U$1" pad="20"/>
-</signal>
-<signal name="N$1">
-<contactref element="U$1" pad="11"/>
-<contactref element="JP2" pad="1"/>
-<wire x1="30.946" y1="21.542" x2="29.0606" y2="15.964" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="U$1" pad="10"/>
-<contactref element="JP2" pad="2"/>
-<wire x1="30.946" y1="19.542" x2="28.49108125" y2="15.391940625" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="U$1" pad="9"/>
-<contactref element="JP2" pad="3"/>
-<wire x1="30.946" y1="17.542" x2="28.09108125" y2="15.391940625" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="U$1" pad="8"/>
-<contactref element="JP2" pad="4"/>
-<wire x1="30.946" y1="15.542" x2="27.69108125" y2="15.391940625" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
